@@ -57,6 +57,7 @@ Apache Sling in five bullets points：
 ## Basic
 
 - [Adobe Experience Manager 6.2 - The Basics](https://docs.adobe.com/docs/en/aem/6-2/develop/the-basics.html)
+- [Adobe Experience Manager 6.1 - docs.adobe.com](https://docs.adobe.com/content/docs/zh-cn/aem/6-1.html) 6.1 版本有部分中文材料（just 参考，but 不推荐）
 - 隶属于 [Adobe Marketing Cloud - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Adobe_Marketing_Cloud#Adobe_Experience_Manager)
 - [Enterprise content management, ECM | Adobe Experience Manager](http://www.adobe.com/marketing-cloud/enterprise-content-management.html) & [企业内容管理 (ECM) | Adobe Experience Manager](http://www.adobe.com/cn/marketing-cloud/enterprise-content-management.html)
 - [AEM 6.0 - 中文概述 docs.adobe.com](https://docs.adobe.com/docs/zh-cn/aem/6-0.html)
