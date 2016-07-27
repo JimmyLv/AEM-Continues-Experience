@@ -2,10 +2,6 @@
 
 Model & View
 
-[Ask the Experts: MVC in Adobe CQ5 | 6D Labs](http://labs.6dglobal.com/blog/2013-05-20/ask-experts-mvc-adobe-cq5/)
-
-实际上就是 MVC：Technically speaking, CQ5 IS MVC, just a form that seems to be unfamiliar to most MVC developers. I think that most people find CQ5's architecture "too coupled" to call it MVC. The biggest complaint I hear is that they would like the data more decoupled from the rendition. Regardless, Sling provides the controller, CRX provides the model, and JSP's/Scripts (ecma, etc) provide the view.
-
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1469608623653.png)
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1469608844086.png)
@@ -35,14 +31,19 @@ Initialize a Java class, where that class is installed as part of an OSGi bundle
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1469608153580.png)
 
-### Others
+## Others
 
 - [React.js + AEM](http://slides.com/benwestrate/deck-1#/)
 - [Developing a VanityPath Manager for Adobe Experience Manager](https://helpx.adobe.com/experience-manager/using/vanitypath.html)
 - [Integrating the AngularJS Framework into Adobe Experience Manager](https://helpx.adobe.com/experience-manager/using/AngularJS.html)
 - [Oracle Nashorn: A Next-Generation JavaScript Engine for the JVM](http://www.oracle.com/technetwork/articles/java/jf14-nashorn-2126515.html)
 
-
-## Tools 
+### Tools 
 
 - [AEM Brackets Extension - docs.adobe.com](https://docs.adobe.com/content/docs/en/dev-tools/aem-brackets.html)
+
+## 结论
+
+[Ask the Experts: MVC in Adobe CQ5 | 6D Labs](http://labs.6dglobal.com/blog/2013-05-20/ask-experts-mvc-adobe-cq5/)
+
+实际上就是 MVC：Technically speaking, CQ5 IS MVC, just a form that seems to be unfamiliar to most MVC developers. I think that most people find CQ5's architecture "too coupled" to call it MVC. The biggest complaint I hear is that they would like the data more decoupled from the rendition. Regardless, Sling provides the controller, CRX provides the model, and JSP's/Scripts (ecma, etc) provide the view.

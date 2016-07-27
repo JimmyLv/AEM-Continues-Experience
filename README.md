@@ -51,6 +51,7 @@ Apache Sling in five bullets points：
 
 ## Overview
 
+- [Adobe Experience Manager - YouTube](https://www.youtube.com/watch?v=T6N47XV_8s0)
 - [Evolve13 cq-commerce-framework](http://www.slideshare.net/paolomoz/evolve13-cqcommerceframework?qid=6a6551d7-6c5b-4ac9-a9f7-9c80e2e4fc90&v=&b=&from_search=19)
 
 ## References
@@ -78,6 +79,7 @@ Apache Sling in five bullets points：
 - [AEM Tuts - Adobe Experience Manager Tutorials](http://aemtuts.com/)
 - [Home | 6D Labs](http://labs.6dglobal.com/)
 - [adobe aem - YouTube](https://www.youtube.com/results?q=adobe+aem&sp=CAM%253D)
+- [Learning Series - Adobe Experience Manager (formerly Adobe CQ) - YouTube](https://www.youtube.com/playlist?list=PLKsCe3_0gbqoN6L_Ihoov2XTOIhdl8R-t)
 
 ## Others
 

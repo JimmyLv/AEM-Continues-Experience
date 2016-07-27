@@ -152,9 +152,21 @@ via [Data access object - Wikipedia, the free encyclopedia](https://en.wikipedia
 
 As long as your application is compliant with the OSGi specification it should be able to run in any OSGi-compliant container.
 
+### Apache Felix 
+
 [Apache Felix](http://www.javaworld.com/article/2077837/java-se/java-se-hello-osgi-part-1-bundles-for-beginners.html#resources) is the open source OSGi container from the Apache Software Foundation. At the time of writing this container is not fully compliant with the OSGI R4 specification.
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1468053191213.png)
+
+Apache Felix is a community effort to implement the OSGi Framework and Service platform and other interesting OSGi-related technologies under the Apache license. **The OSGi specifications originally targeted embedded devices and home services gateways, but they are ideally suited for any project interested in the principles of modularity, component-orientation, and/or service-orientation.** OSGi technology combines aspects of these aforementioned principles to define a **dynamic service deployment** framework that is amenable to remote management.
+
+已经瞧过的名词：
+
+- [HTTP Service](http://felix.apache.org/documentation/subprojects/apache-felix-http-service.html) - An implementation of the OSGi HTTP Whiteboard and Http Service specification.
+- [Web Console](http://felix.apache.org/documentation/subprojects/apache-felix-web-console.html) - A simple tool to inspect and manage OSGi framework instances using your favorite Web Browser.
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1469624952179.png)
+
 
 ### Bundles 即 Module (& console)
 
