@@ -49,19 +49,40 @@ Apache Sling in five bullets points：
 
 [java - What does it mean that Apache Sling "more REST" than Spring-mvc? - Stack Overflow](http://stackoverflow.com/questions/22694602/what-does-it-mean-that-apache-sling-more-rest-than-spring-mvc)
 
+## Overview
+
+- [Evolve13 cq-commerce-framework](http://www.slideshare.net/paolomoz/evolve13-cqcommerceframework?qid=6a6551d7-6c5b-4ac9-a9f7-9c80e2e4fc90&v=&b=&from_search=19)
+
 ## References
 
 - [AEM - Administer Best Practices](https://docs.adobe.com/docs/en/aem/6-2/administer/best-practices.html)
 - [AEM - Developing](https://docs.adobe.com/docs/en/aem/6-2/develop.html)
+- [Aem best practices](http://www.slideshare.net/JituTomar/aem-best-practices?qid=6a6551d7-6c5b-4ac9-a9f7-9c80e2e4fc90&v=&b=&from_search=48)
+
 
 ## Basic
 
-- [Adobe Experience Manager 6.2 - The Basics](https://docs.adobe.com/docs/en/aem/6-2/develop/the-basics.html)
+- [Adobe Experience Manager 6.2 - Developing / The Basics](https://docs.adobe.com/docs/en/aem/6-2/develop/the-basics.html)
+- [Top 10 Hottest Features in Adobe Experience Manager (AEM) Sites 6.2 | Adobe](https://blogs.adobe.com/digitalmarketing/web-experience/top-10-hottest-features-adobe-experience-manager-aem-sites-6-2-2/)
 - [Adobe Experience Manager 6.1 - docs.adobe.com](https://docs.adobe.com/content/docs/zh-cn/aem/6-1.html) 6.1 版本有部分中文材料（just 参考，but 不推荐）
 - 隶属于 [Adobe Marketing Cloud - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Adobe_Marketing_Cloud#Adobe_Experience_Manager)
 - [Enterprise content management, ECM | Adobe Experience Manager](http://www.adobe.com/marketing-cloud/enterprise-content-management.html) & [企业内容管理 (ECM) | Adobe Experience Manager](http://www.adobe.com/cn/marketing-cloud/enterprise-content-management.html)
 - [AEM 6.0 - 中文概述 docs.adobe.com](https://docs.adobe.com/docs/zh-cn/aem/6-0.html)
 - [AEM - Adobe CMS 扒坑记之始](http://owenyang0.github.io/2014/12/13/AEM-Adobe-CMS-%E6%89%92%E5%9D%91%E8%AE%B0%E4%B9%8B%E5%A7%8B/)
+- [Adobe CQ5介绍 - 博文_晓峰_新浪博客](http://blog.sina.com.cn/s/articlelist_2660661593_0_1.html)
+
+## Tutorials
+
+- [AEM CQ5 Tutorials | AEM Tutorials and Interview Questions](http://www.aemcq5tutorials.com/)
+- [CQ5 AEM Tricks of Trade – One Stop Guide to AEM !!!](https://hashimkhan.in/)
+- [AEM Tuts - Adobe Experience Manager Tutorials](http://aemtuts.com/)
+- [Home | 6D Labs](http://labs.6dglobal.com/)
+- [adobe aem - YouTube](https://www.youtube.com/results?q=adobe+aem&sp=CAM%253D)
+
+## Others
+
+- [电子商务系统与全渠道电商解决方案 | hybris SAP](https://www.hybris.com/zh/)
+- [Adobe Experience Manager | Adobe Digital Marketing Blog](https://blogs.adobe.com/digitalmarketing/tag/adobe-experience-manager/)
 
 
 ## Relationship
