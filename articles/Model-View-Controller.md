@@ -6,6 +6,13 @@ Model & View
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1469608844086.png)
 
+跟 MVC 最大的不同在于 Controller 的纯净性：即 Content 作为 Resource 总是拥有某种实体，而 Sling 提供的就是一种 Scripting Solution
+
+> via [The Basics](https://docs.adobe.com/docs/en/aem/6-2/develop/the-basics.html#Introduction to Sling):
+> 
+> Using Sling, the type of content to be rendered is not the first processing consideration. Instead the main consideration is whether the URL resolves to a content object for which a script can then be found to perform the rendering. This provides excellent support for web content authors to build pages which are easily customized to their requirements.
+> The advantages of this flexibility are apparent in applications with a wide range of different content elements, or when you need pages that can be easily customized. In particular, when implementing a Web Content Management system such as the WCM in the AEM solution.
+
 ### Template
 
 - [HTL Getting Started](https://docs.adobe.com/docs/en/htl/getting-started.html)

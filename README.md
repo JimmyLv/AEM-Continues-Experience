@@ -95,6 +95,8 @@ Apache Sling in five bullets points：
 
 - [电子商务系统与全渠道电商解决方案 | hybris SAP](https://www.hybris.com/zh/)
 - [Adobe Experience Manager | Adobe Digital Marketing Blog](https://blogs.adobe.com/digitalmarketing/tag/adobe-experience-manager/)
+- [内容管理系统 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)
+- [Content management system](https://en.wikipedia.org/wiki/Content_management_system) & [Enterprise content management](https://en.wikipedia.org/wiki/Enterprise_content_management)
 
 
 ## Relationship
