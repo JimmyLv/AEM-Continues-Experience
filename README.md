@@ -2,6 +2,16 @@
 
 learning AEM...
 
+霸气的 Marketing Cloud：All the solutions marketers need.
+
+To be an experience business, 
+it takes a Leader.
+
+[![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1469674996592.png)](http://landing.adobe.com/en/na/products/marketing-cloud/290824-forrester-wave-emss-ccm.html)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1469675204327.png)
+
+
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1468060034522.png)
 
 > Adobe Experience Manager is a web-based client-server system for building, managing and deploying commercial websites and related services. It combines a number of infrastructure-level and application-level functions into a single integrated package.
