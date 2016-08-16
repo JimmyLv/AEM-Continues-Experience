@@ -96,4 +96,103 @@ overlay: Copy to another folder and modified something
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471262453551.png)
 
+## Component roles
 
+组件角色取决于怎么用它，就像一个人，在不同的地方扮演不同的角色（Student | Developer）
+
+Template 用于初始化 Page 的默认元素。
+
+区分 runtime 和 createtime （author）
+
+> class -> classification: we are instance of human beings
+
+都是 Node，只是 CRXDE 提供了 Template 和 Component 的快速选项，填好必要参数即可
+
+## 导航栏（演示 smart Component + Script）
+
+[Use-API](https://docs.adobe.com/docs/en/htl/docs/use-api.html) （JavaScript & Java）& [HTL](https://docs.adobe.com/docs/en/htl/overview.html)
+
+`currentPage.listChildren` 显示出所有子页面（进而我回过头添加了所有的子页面，页面继承简直太酷）
+
+## Logging
+
+> AEM is Marketing Products...
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471318096024.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471318138767.png)
+
+    16.08.2016 11:31:06.349 *INFO* [0:0:0:0:0:0:0:1 [1471318266330] GET /content/we-train/English.html HTTP/1.1] apps.training.components.structure.site-topnav.site-topnav$html ########[JS] Root page is: English
+    16.08.2016 11:59:56.413 *INFO* [0:0:0:0:0:0:0:1 [1471319996401] GET /content/we-train/English/products.html HTTP/1.1] apps.training.components.structure.site-topnav.site-topnav$html ########[JS] Root page is: English
+
+## Dialog
+
+Classic UI 用的是 ExtJS
+
+要秀出 Touch UI （cq:dialog） 必须先建一个 Classic UI 的 Dialog
+
+`<div class="we-Header" data-sly-resource="${'title' @ resourceType='training/components/structure/title'}"></div>`
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471320681966.png)
+
+> I can only remember diagram, my job is to make it easy to understand.
+
+直接编辑文字：
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471325139658.png)
+
+Design Dialog
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471326434890.png)
+
+## Hero Component
+
+> 教爸妈学上网 => Marketing Peope also 不用考虑 HTML
+
+[AEM Assets](http://localhost:4505/assetdetails.html/content/dam/jimmy-folder/wave-huge.jpg)
+
+## Breadcrumb & ToolBar 
+
+直接借用 `<div class="aem-breadcrumb" data-sly-resource="${'breadcrumb' @ resourceType='/libs/foundation/components/breadcrumb'}"></div>`
+
+对于 ToolBar 来说还可以设置 selector，然后设置属性决定每个 toolBar Item 的显示与否。
+
+`cq:toolbars | String | top(or btm)`
+
+## Responsive
+
+`<div data-sly-resource="${'responsivegrid' @resourceType='wcm/foundation/components/responsivegrid'}"></div>`
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471334136463.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471334190952.png)
+
+Designer 决定可以给 Author 用哪些 Components
+
+Layout 模式对响应式设计的支持无比酷炫至极：
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471335123051.png)
+
+## Internationalization (Globalization/Localization)
+
+没生效，/(ㄒoㄒ)/~~  还有 [AEM Translator](http://localhost:4505/libs/cq/i18n/translator.html) 没找到自己配置的。
+
+## Overlays and Sling Resource Merger?
+
+就是说可以改/覆盖任何 AEM 里面的东西？
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471337754492.png)
+
+修改 Sling servlet，自定义 404 页面，please notice `404.html` page should not have any syntax error.
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471337901067.png)
+
+## Sling Redirect
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471339579945.png)
+
+error: (注意 `"type":"foundation/components/redirect\n"`)
+
+```
+<!--cq{"decorated":false,"type":"foundation/components/redirect\n","path":"/content/we-train/jcr:content","selectors":null,"servlet":"DefaultGetServlet","totalTime":1,"selfTime":1}-->
+```
