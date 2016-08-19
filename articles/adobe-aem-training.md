@@ -255,3 +255,62 @@ The Dispatcher helps realize an environment that is fast and dynamic. It works a
 [![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471420546384.png)](http://localhost:4505/libs/granite/operations/content/diagnosis/tool.html/granite:requestperformance)
 
 ![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471420733210.png)
+
+## Training project
+
+change `pom.xml` 
+
+console/bundles
+
+configMgr
+
+## Sling (Resource Resolver)
+
+higher priority than `etc/map`
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471492318422.png)
+
+`sling:mapping` match ->> redirect (external redirect/)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471572722646.png)
+
+[Sling Model](https://sling.apache.org/documentation/bundles/models.html): `@Inject(name="propertyName")`
+
+event admin? event listener
+
+## SlingEvents, Schedule a job
+
+[Apache Sling Eventing and Job Handling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html)
+
+Events are used to trigger jobs or workflows. 
+
+Implement the EventHandler interface, listening to OSGi Events.
+
+JobProducer JobManager(manage message queue, jobs)
+
+JobConsumer (handle jobEvent <- notify, return jobResult)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471501065699.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471502549987.png)
+
+ObserveManager(`*`observe -> JCR node) with EventListener
+
+facade design pattern
+
+## Setting Run Modes (Page 148)
+
+`java -jar cq-quickstart.jar -r author,tw,chengdu`
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471504755433.png)
+
+## OSGi
+
+The OSGi metadata is provided as header information in the `META-INF/MANIFEST.MF` file. 由 Maven 插件生成
+
+`metatype=true` 默认 properties
+
+Service Ref & Service Listener
+
+
+
