@@ -312,5 +312,68 @@ The OSGi metadata is provided as header information in the `META-INF/MANIFEST.MF
 
 Service Ref & Service Listener
 
+## Query & Search
+
+    SELECT * FROM [nt:file] AS files
+
+跟数据库一样的语句，但不是数据库、
+
+Java Query Object Model (JQOM) is a mapping of AQM to Java API, and expresses a query as a tree of Java objects. 
+
+Search Performance？
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471576691836.png)
+
+## Indexing Tools
+
+http://lucene.apache.org/solr/
+
+[Apache Solr - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Apache_Solr)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471577081460.png)
+
+[Diagnosis Tool - oak Index Manager](http://localhost:4502/libs/granite/operations/content/diagnosis/tool.html/granite:oakindexmanager)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471577898561.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471578073170.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471580389787.png)
 
 
+## Custom Logging
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471586365255.png)
+    
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471586505479.png)
+
+## Workflow
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471587388375.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471587852648.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471589097417.png)
+
+
+... sleepy
+
+## Data Migration
+
+use wrapper for exsiting database
+
+how to create Tag:
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471596037647.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471596137608.png)
+
+Tar Storage >> MongoDB Storage (25 times faster)
+
+## User & Group
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471597155013.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471597433900.png)
+
+![](http://7xjbdq.com1.z0.glb.clouddn.com/images/2016/1471597747142.png)
